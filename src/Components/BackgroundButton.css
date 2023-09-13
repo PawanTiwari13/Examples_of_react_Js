@@ -1,0 +1,36 @@
+/* Button styles */
+.my-button {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+/* Define the background color after clicking */
+.my-button.clicked {
+    background-color: #b24343; /* You can change this color as needed */
+    color: #fff; /* Set text color for better visibility */
+}
+
+/* Optional: Add hover effect */
+/*.my-button:hover {*/
+/*    background-color: #ddd; !* Change the background color on hover *!*/
+/*    color: #333; !* Change the text color on hover *!*/
+/*}*/
+.my-button {
+    background-color: #007bff; /* Initial background color for both buttons */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+/* Apply a transparent background to the second button when the "transparent" class is added */
+.my-button.transparent {
+    background-color: transparent;
+    color: #333; /* Change text color for better visibility on transparent background */
+}
